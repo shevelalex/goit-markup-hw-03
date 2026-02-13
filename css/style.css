@@ -5,13 +5,13 @@ h4,
 h5,
 h6,
 P {
-  margin: 0;
+  margin: 0px;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding-left: 0;
+  margin: 0px;
+  padding-left: 0px;
 }
 
 img {
@@ -20,9 +20,9 @@ img {
 
 /* ---ВИПРАВИТИ--- */
 .container {
-  max-width: 1166px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,6 +45,11 @@ a:active {
   color: #4d5ae5;
 }
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -53,6 +58,8 @@ a:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo .header-logo-navi {
@@ -69,6 +76,8 @@ a:active {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav:hover,
@@ -95,6 +104,8 @@ a:active {
 
 .banner {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 48px;
 }
 
 .banner-title {
@@ -103,7 +114,9 @@ a:active {
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0px auto;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .banner-btn {
@@ -114,11 +127,19 @@ a:active {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  margin: 48px auto 0px auto;
 }
 
 .banner-btn:hover,
 .banner-btn:focus {
   background-color: #404bbf;
+}
+
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-subtitle {
@@ -139,6 +160,8 @@ a:active {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
