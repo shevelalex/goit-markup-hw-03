@@ -1,11 +1,38 @@
-body {
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  color: #434455;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+P {
+  margin: 0;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+/* ---ВИПРАВИТИ--- */
+.container {
+  max-width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ================== */
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 a {
@@ -137,6 +164,7 @@ a:active {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
   font-weight: 400;
   font-size: 16px;
@@ -163,6 +191,7 @@ a:active {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
