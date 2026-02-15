@@ -34,20 +34,18 @@ a:active {
   color: #4d5ae5;
 }
 
-/* ---ВИПРАВИТИ--- */
 .container {
-  max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ================== */
-
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #f4f4fd;
 }
 
 .nav {
@@ -64,8 +62,6 @@ a:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 24px;
-  padding-bottom: 24px;
   padding-right: 76px;
 }
 
@@ -114,10 +110,14 @@ a:active {
   color: #404bbf;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .banner {
   background-color: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 48px;
 }
 
 .banner-title {
@@ -141,7 +141,7 @@ a:active {
   color: #ffffff;
   background-color: #4d5ae5;
   padding: 16px 32px;
-  margin: 48px auto 188px auto;
+  margin: 48px auto 68px auto;
   border-radius: 4px;
   border: none;
 }
@@ -151,9 +151,17 @@ a:active {
   background-color: #404bbf;
 }
 
-.hero {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .hero-list {
@@ -183,8 +191,6 @@ a:active {
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -227,11 +233,6 @@ a:active {
   color: #434455;
 }
 
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -240,10 +241,12 @@ a:active {
 
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
-  border: 1px solid #f4f4fd;
 }
 
 .portfolio-item-description {
+  border-bottom: 1px solid #f4f4fd;
+  border-left: 1px solid #f4f4fd;
+  border-right: 1px solid #f4f4fd;
   padding: 32px 16px;
   width: 360px;
   height: 120px;
