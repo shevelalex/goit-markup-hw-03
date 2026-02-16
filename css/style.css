@@ -242,11 +242,16 @@ a:active {
   color: #434455;
 }
 
+.portfolio {
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
